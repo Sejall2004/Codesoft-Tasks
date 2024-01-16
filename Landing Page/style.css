@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    margin-bottom: 500px;
+    margin-top: -140px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1554521718-e87e96d67ca5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main navbar{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+main navbar .logo1{
+    width: 70px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+main navbar .nav{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 1140px;
+    margin-top: -10px;
+
+}
+
+navbar .nav a{
+    color: black;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+navbar .nav a:hover{
+    color: hotpink;
+}
+
+.title{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.title h1{
+    font-size: 16px;
+    margin-left: 670px;
+    margin-top: -55px;
+    color: lightslategray;
+}
+
+.title h2{
+    font-size: 90px;
+    font-family: Gilroy;
+    color: mediumorchid;
+    margin-left: 480px;
+    margin-top: -20px;
+
+}
+
+.title h3{
+    font-size: 37px;
+    margin-left: -25px;
+    margin-top: 50px;
+    color: lightpink;
+}
+
+.title h3 span{
+    font-size: 55px;
+}
+
+.title a{
+    text-decoration: none;
+    color: #fff;
+    background: lightgray;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 665px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.title a:hover{
+    background-color: hotpink;
+}
+
